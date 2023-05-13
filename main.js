@@ -13,3 +13,12 @@
 
 // localStorage.clear()
 
+// ______________________________________
+
+const ismlar = ["Diyor", "Javohir", "Alisher"]
+
+localStorage.setItem("NameArray" ,JSON.stringify(ismlar))
+
+const arrName = JSON.parse(localStorage.getItem("NameArray"))
+console.log(arrName)
+
